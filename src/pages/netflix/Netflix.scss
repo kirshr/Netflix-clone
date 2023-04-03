@@ -1,0 +1,32 @@
+.Netflix-home {
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.media-controls {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    button {
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem 2rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        svg {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+    .play-btn {
+        background-color: whitesmoke;
+        color: black;
+    }
+    .info-btn {
+        background-color: rgba(49, 49, 49, 0.75);
+    }
+}
+.hero-container {
+    padding: 5rem;
+}
